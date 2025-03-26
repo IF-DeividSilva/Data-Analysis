@@ -1,0 +1,43 @@
+Os dados abertos ajudam a criar muitos conjuntos de dados públicos que podem ser acessados para tomar decisões baseadas em dados. Aqui estão alguns recursos que você pode usar para começar a pesquisar conjuntos de dados públicos por conta própria:
+
+Os 
+Conjunto de dados públicos do Google Nuvem
+ permitem que os Analistas de dados tenham acesso a conjuntos de dados públicos de alta demanda e facilitam a descoberta de insights na nuvem pública.
+
+A 
+Pesquisa de conjuntos de dados
+ pode ajudá-lo a encontrar conjuntos de dados disponíveis on-line com pesquisas por palavras-chave.
+
+Kaggle
+ tem uma função de pesquisa de Dados abertos que pode ajudá-lo a encontrar conjuntos de dados para praticar.
+
+Por fim, 
+BigQuery
+ hospeda mais de 150 conjuntos de dados públicos que podem ser acessados e usados.
+
+Conjuntos de dados de saúde pública
+Dados do Observatório de Saúde Global
+: Você pode pesquisar conjuntos de dados nesta página ou explorar coleções de dados em recurso da Organização Mundial da Saúde.
+
+Conjunto de dados do Arquivo de Imagens do Câncer (TCIA)
+: Assim como o conjunto de dados anterior, esses dados são hospedados pelo Conjunto de dados públicos do Google Nuvem e podem ser carregados no BigQuery.
+
+1000 Genomas
+: Esse é outro conjunto de dados dos recursos públicos do Google Nuvem que pode ser carregado no BigQuery.
+
+Conjuntos de dados climáticos públicos
+Centro Nacional de Dados Climáticos
+: A página de links rápidos do NCDC tem uma seleção de conjuntos de dados que você pode explorar.
+
+Galeria de conjuntos de dados públicos da NOAA
+: A Galeria de conjuntos de dados públicos da NOAA contém uma coleção pesquisável de conjuntos de dados públicos.
+
+Conjuntos de dados sociais e políticos públicos
+UNICEF State of the World's Children (Estado das crianças do mundo)
+: Esse conjunto de dados da UNICEF inclui uma coleção de tabelas que podem ser baixadas.
+
+Estatísticas da Força de Trabalho CPS
+: Esta página contém links para vários conjuntos de dados disponíveis que você pode explorar.
+
+Projeto de Policiamento Aberto de Stanford
+: Esse conjunto de dados pode ser baixado como um arquivo .csv para seu próprio uso.
