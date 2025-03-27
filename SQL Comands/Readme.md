@@ -20,7 +20,7 @@ WHERE
 SELECT *
 FROM `bigquery-public-data.sunroof_solar.solar_potential_by_postal_code` WHERE state_name = 'Pennsylvania'
 ```
-![img](https://github.com/IF-DeividSilva/Data-Analysis/blob/main/Modulo%204/SQL%20Comands/Prints/Captura%20de%20tela%202025-03-25%20211038.png)
+![img](https://github.com/IF-DeividSilva/Data-Analysis/tree/main/SQL%20Comands/Prints)
 
 ## Comentários SQL
 ```bash
