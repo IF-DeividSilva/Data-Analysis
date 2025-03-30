@@ -3,8 +3,8 @@
 ## Seção de uma consulta que indica quais dados você deseja que o SQL lhe retorne.
 ```bash
 SELECT *
-```
 
+```
 ## Seção de uma consulta que indica de qual tabela vêm os dados desejados. Você deve fornecer um caminho completo para a tabela. O caminho inclui o nome do projeto, o nome do banco de dados e o nome da tabela, cada um separado por um ponto.
 ```bash
 FROM 
