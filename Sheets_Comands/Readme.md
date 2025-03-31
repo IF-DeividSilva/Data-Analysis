@@ -50,3 +50,45 @@ IMPORTDATA(A2)
 ```bash
 =VLOOKUP(search_key, range, index, [is_sorted])
 ```
+
+## A função COUNTIF retorna o número de células em um intervalo que corresponde a um valor especificado.
+
+```bash
+=COUNTIF(range,"condition")
+```
+ex:
+```bash
+ =COUNTIF(I2:I72,"<100")
+```
+
+## A função LEN é útil se você tiver uma determinada informação em sua Planilha que você sabe que deve conter um determinado comprimento.
+
+
+```bash
+ =LEN(celula)
+```
+
+## LEFT é uma função que retorna um número definido de caracteres do lado esquerdo de uma string de texto. RIGHT é uma função que retorna um número definido de caracteres do lado direito de uma string de texto. 
+```bash
+=LEFT(celula, caracter numbers)
+```
+
+```bash
+=RIGHT(celula, caracter numbers)
+```
+
+## MID é uma função que retorna um segmento do meio de um String de texto.
+
+```bash
+=MID(celula, start, caracter numbers)
+```
+
+## CONCATENATE é uma função da Planilha que une duas ou mais strings de texto.
+```bash
+=CONCATENATE(celula1, celula2)
+```
+
+## TRIM é uma Função que remove espaços à esquerda, à direita e repetidos nos dados.
+```bash
+=TRIM(celula1)
+```

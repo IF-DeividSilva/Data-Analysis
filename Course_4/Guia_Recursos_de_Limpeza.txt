@@ -1,0 +1,74 @@
+Exemplo 1: Use a formatação condicional para destacar células em branco
+
+Abra a planilha 
+
+Selecione o intervalo de células ao qual você aplicará a formatação condicional. Neste exemplo, você selecionará as colunas de A a L, exceto as colunas F e H. Para selecionar todas as colunas, exceto F e H: a. Selecione a célula A para destacar a coluna A. b. Mantenha pressionada a tecla SHIFT e, ao mesmo tempo, use o mouse para selecionar a célula E. Isso destacará todas as colunas entre A e E. c. Para selecionar o restante das colunas, mantenha pressionada a tecla CONTROL (Windows) ou COMMAND (MAC) enquanto seleciona as células G, I, J, K e L. d. As colunas de A a L da planilha devem ser destacadas, exceto a coluna F e a coluna H. 
+
+No menu, selecione Formatar e, em seguida, Formatação condicional. As colunas que você selecionou devem ficar com um tom claro de verde, e uma nova ferramenta Regras de formatação condicional será exibida. Além disso, o campo Aplicar ao intervalo deverá indicar as células que você selecionou. 
+
+Em seguida, aplique uma condição a essas células para alterar a cor da célula se ela estiver vazia. No menu suspenso Formatar células se, selecione A célula está vazia.
+
+Selecione o campo Estilo de formatação. Selecione uma cor brilhante no menu suspenso para destacar as células em branco.
+
+Selecione Concluído.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Exemplo 2: Remover duplicatas
+Remover duplicatas é uma ferramenta de planilha que procura e elimina automaticamente entradas duplicadas de uma planilha. Isso é mais rápido e fácil do que pesquisar os dados rolando por eles.
+
+Crie uma cópia de seu conjunto de dados clicando com o botão direito do mouse na guia Associação ABC e selecionando Duplicar. Essa é uma boa prática, pois protege contra a exclusão acidental de dados importantes. Continue trabalhando na nova planilha, Cópia das associações da Association ABC.
+
+No menu, selecione Data (Dados), depois Data cleanup (Limpeza de dados) e Remover duplicatas.
+
+Marque a caixa ao lado de Data has header row (Os dados têm linha de cabeçalho).
+
+Marque a caixa ao lado de Select All para inspecionar a planilha inteira.
+
+Selecione Remover duplicatas.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Exemplo 3: Formatar datas de forma consistente
+Formate as datas para tornar todos os dados da planilha consistentes. Isso torna os itens mais fáceis de localizar e manipular.
+
+Selecione a coluna J (Associação válida até), que contém datas.
+
+No menu, selecione Format (Formatar), depois Number (Número) e Date (Data).
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Exemplo 4: Use a divisão para separar os dados em colunas
+A opção de menu dividir é útil quando há mais de um dado em uma célula e você deseja separar esses dados em células diferentes. 
+
+Selecione a coluna L (Certificação). 
+
+No menu, selecione Data (Dados) e, em seguida, Split text to columns (Dividir texto em colunas).
+
+O delimitador (por exemplo, uma vírgula) será detectado automaticamente. 
+
+Se necessário, especifique o separador manualmente no menu suspenso que aparece na planilha.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Exemplo 5: Use a divisão para corrigir números armazenados como texto
+SPLIT é uma função de planilha que divide o texto em torno de um caractere especificado e coloca cada fragmento em uma célula nova e separada.
+
+Abra a planilha 
+Cosmetics Inc. - Dados para Limpeza de Dados
+.
+
+Observe que a célula F12 contém um erro.
+
+Selecione a coluna E (Orders).
+
+No menu, selecione Data (Dados) e, em seguida, selecione Split text to columns (Dividir texto em colunas).
+
+Isso remove as aspas da célula E12 para que a planilha reconheça os dados da célula como um número. Isso resolve o erro na célula F12.
