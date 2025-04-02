@@ -38,3 +38,46 @@ ou
 SELECT AVG("nome_da_coluna")
  
 ```
+
+## Função CAST -> converte dados de um tipo de dado para outro
+```bash
+SELECT
+    CAST(expression AS data_type [ (length) ])
+FROM 
+    table_name;
+```
+
+## Função COALESCE -> retorna valores não nulos em uma lista
+```bash
+SELECT 
+    COALESCE(column_name, 'Default column Value') AS result
+FROM 
+    table_name;
+
+```
+
+## Função CONCAT -> concatena o conteudo de uma ou mais colunas
+```bash
+SELECT
+    CONCAT(column_name, column_name) AS result
+FROM 
+    table_name;
+```
+
+## Função DISTINCT -> garante que os resultados retornados não estejam duplicados
+```bash
+SELECT
+    DISTINCT column1
+FROM 
+    table_name;
+
+```
+
+## Função SUBSTR -> usada para extrair uma parte específica de uma string de texto
+```bash
+SELECT 
+    SUBSTR(string, start, length) AS extracted_text
+FROM 
+    table_name;
+
+```
