@@ -42,10 +42,19 @@ SELECT AVG("nome_da_coluna")
 ## Função CAST -> converte dados de um tipo de dado para outro
 ```bash
 SELECT
-    CAST(expression AS data_type [ (length) ])
+    CAST(expression AS typename [ (length) ])
 FROM 
     table_name;
 ```
+ou
+```bash
+SELECT 
+    SAFE_CAST(MyDate AS STRING) 
+FROM 
+    MyTable
+```
+
+
 
 ## Função COALESCE -> retorna valores não nulos em uma lista
 ```bash
@@ -81,3 +90,44 @@ FROM
     table_name;
 
 ```
+
+## Filtrar e classificar dados
+
+```bash
+SELECT 
+    *
+FROM
+    'project name'
+WHERE
+    Genre = "Action"  -- filtro 1
+    AND
+    Revenue > 300000000 -- filtro 2
+ORDER BY `Release Date` DESC; -- Padrão é Crescente
+-- ordenando pela data decrescente
+```
+
+## Importação de dados em SQL
+
+```bash
+INSERT INTO 
+    [destination_table_name]
+SELECT 
+    [column names, separated by commas, or * for all columns]
+FROM 
+    [source_table_name]
+WHERE 
+    [condition]
+```
+
+## Combinar dados no SQL
+
+```bash
+SELECT 
+    CONCAT(field1, " ", field2)
+FROM 
+    [table_name]
+```
+
+## Resumo de concaternar strings
+
+![img](https://github.com/IF-DeividSilva/Data-Analysis/blob/main/SQL%20Comands/Prints/Captura%20de%20tela%202025-03-25%20211038.png)
