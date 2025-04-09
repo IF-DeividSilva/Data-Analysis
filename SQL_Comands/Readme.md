@@ -20,7 +20,7 @@ WHERE
 SELECT *
 FROM `bigquery-public-data.sunroof_solar.solar_potential_by_postal_code` WHERE state_name = 'Pennsylvania'
 ```
-![img](https://github.com/IF-DeividSilva/Data-Analysis/blob/main/SQL%20Comands/Prints/Captura%20de%20tela%202025-03-25%20211038.png)
+![img](https://github.com/IF-DeividSilva/Data-Analysis/blob/main/SQL_Comands/Prints/Captura%20de%20tela%202025-03-25%20211038.png)
 
 ## Comentários SQL
 ```bash
@@ -130,4 +130,4 @@ FROM
 
 ## Resumo de concaternar strings
 
-![img](https://github.com/IF-DeividSilva/Data-Analysis/blob/main/SQL%20Comands/Prints/Captura%20de%20tela%202025-03-25%20211038.png)
+![img](https://github.com/IF-DeividSilva/Data-Analysis/blob/main/SQL_Comands/Prints/Captura%20de%20tela%202025-04-09%20203606.png)
