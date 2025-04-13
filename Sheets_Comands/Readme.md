@@ -92,3 +92,13 @@ ex:
 ```bash
 =TRIM(celula1)
 ```
+
+## CONVERT é uma Função que converte unidades de medida.
+```bash
+=CONVERT (celula, "de", “para”)
+```
+Exemplo:
+
+```bash
+=CONVERT (B2, "F", “C”)
+```
